@@ -1,0 +1,11 @@
+{
+  "hosting": [
+    {
+      "target": "whosaysthat",
+      "source": ".",
+      "frameworksBackend": {
+        "region": "us-central1"
+      }
+    }
+  ]
+}

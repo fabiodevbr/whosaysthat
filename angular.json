@@ -99,8 +99,28 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "whosaysthat:build:production",
+              "serveTarget": "whosaysthat:serve:production"
+            },
+            "development": {
+              "buildTarget": "whosaysthat:build:development",
+              "serveTarget": "whosaysthat:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "ea5fc320-5e92-45e0-ab8b-fd7e0ee9ef67"
   }
 }

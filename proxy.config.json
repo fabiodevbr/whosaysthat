@@ -1,0 +1,8 @@
+{
+    "/apiStripe": {
+      "target": "https://api.stripe.com/v1",
+      "secure": false,
+      "changeOrigin": true
+    }
+  }
+  

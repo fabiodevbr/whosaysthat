@@ -1,0 +1,46 @@
+/* escolha-jogo.component.css */
+.opcao {
+    margin-bottom: 16px;
+    width: 100%; /* Para ocupar toda a largura */
+  }
+  
+  .opcao label {
+    display: block;
+    padding: 24px;
+    background-color: #221769; /* Cor de fundo padrão */
+  }
+  
+  .opcao input[type="radio"] {
+    display: none;
+  }
+  
+  .opcao input[type="radio"] + label {
+    cursor: pointer;
+  }
+  
+  .opcao input[type="radio"]:checked + label {
+    font-weight: bold;
+    background-color: #0172CB; /* Cor de fundo quando marcado */
+    color: white; /* Cor do texto quando marcado */
+  }
+  
+  #continuar {
+    margin-top: 20px;
+    width: 100%; /* Para ocupar toda a largura */
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #continuar:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+    border-color: #0056b3; /* Cor da borda ao passar o mouse */
+  }
+  
+  .content {
+    padding: 24px;
+  }

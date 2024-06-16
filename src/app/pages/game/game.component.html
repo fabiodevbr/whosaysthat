@@ -1,0 +1,9 @@
+
+<div class="content">
+    <div class="opcao" *ngFor="let opcao of opcoes">
+      <input type="radio" id="{{opcao.id}}" name="opcao" (change)="marcarOpcao(opcao)">
+      <label for="{{opcao.id}}">{{opcao.texto}}</label>
+    </div>
+    <button id="continuar" (click)="continuar()">Continuar</button>
+  </div>
+  

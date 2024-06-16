@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "whosaysthat-4051c": {
+      "hosting": {
+        "whosaysthat": [
+          "whosaysthat-4051c"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "whosaysthat-4051c"
+  }
+}

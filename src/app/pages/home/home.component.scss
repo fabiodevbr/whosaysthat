@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    padding-bottom: 16px;
+}
+
+.coins-header {
+    padding: 16px;
+    margin-right: 24px;
+    background: #150D50;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.profile-header {
+    padding: 16px;
+    margin-left: 24px;
+    background: #150D50;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.game-section {
+    background-color: #050223;
+    padding: 24px;
+}
+
+.start-button {
+    text-align: center;
+    padding: 24px;
+    font-size: 32px;
+    background: #745EFF;
+    border-radius: 20px;
+    font-weight: 600;
+    margin: 24px 0;
+}
+
+.section-btns {
+    display: flex;
+    gap: 16px;
+    background: #050223;
+    margin: 8px 0;
+}
+
+.btn {
+    padding: 24px;
+    background: #23196A;
+    border-radius: 20px;
+    width: 50%;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    width: 100%;
+    border-radius: 24px;
+}
